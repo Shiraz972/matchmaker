@@ -1,4 +1,4 @@
-css: 
+
 body {
 font-family: 'Comic Sans MS', cursive, sans-serif;
 background-color: #ffe6f2;
@@ -80,3 +80,12 @@ color: #e63946;
 color: #ff4d94;
 font-size: 2em;
 }
+position: absolute;
+    width: 100px;
+    z-index: 0;
+}
+/* Positioning GIFs */
+.gif1 { top: 10%; left: 10%; }
+.gif2 { top: 20%; right: 15%; }
+.gif3 { bottom: 10%; left: 5%; }
+.gif4 { bottom: 15%; right: 10%; }
