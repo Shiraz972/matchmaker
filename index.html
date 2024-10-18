@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>True Love Compatibility Test</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True Love</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>True Love Compatibility Test <span class="heart">❤️</span></h1>
-<div id="quiz">
-<p>Please rate the following statements from 1 (Strongly Disagree) to 5 (Strongly Agree):</p>
-<div class="question" id="q1">
-<p>1. I love all types of cats.</p>
-<input type="number" min="1" max="5" />
-<span class="error"></span>
-</div>
-<div class="question" id="q2">
-<p>2. I love travelling outside the U.S. and immersing in different culture.</p>
-<input type="number" min="1" max="5" />
-<span class="error"></span>
-</div>
-<div class="question" id="q3">
-<p>3. I enjoying playing sports (basketball, flag football).</p>
-<input type="number" min="1" max="5" />
-<span class="error"></span>
-</div>
-<div class="question" id="q4">
-<p>4. I enjoy going theatre.</p>
-<input type="number" min="1" max="5" />
-<span class="error"></span>
-</div>
-<div class="question" id="q5">
-<p>5. I love fine dining.</p>
-<input type="number" min="1" max="5" />
-<span class="error"></span>
-</div>
-<button onclick="calculateCompatibility()">Submit</button>
-</div>
+    <h1>True Love Compatibility Test <span class="heart">❤️</span></h1>
+    <div id="quiz">
+    <p>Please rate the following statements from 1 (Strongly Disagree) to 5 (Strongly Agree):</p>
+    <div class="question" id="q1">
+    <p>1. I love all types of cats.</p>
+    <input type="number" min="1" max="5" />
+    <span class="error"></span>
+    </div>
+    <div class="question" id="q2">
+    <p>2. I love travelling outside the U.S. and immersing in different culture.</p>
+    <input type="number" min="1" max="5" />
+    <span class="error"></span>
+    </div>
+    <div class="question" id="q3">
+    <p>3. I enjoying playing sports (basketball, flag football).</p>
+    <input type="number" min="1" max="5" />
+    <span class="error"></span>
+    </div>
+    <div class="question" id="q4">
+    <p>4. I enjoy going theatre.</p>
+    <input type="number" min="1" max="5" />
+    <span class="error"></span>
+    </div>
+    <div class="question" id="q5">
+    <p>5. I love fine dining.</p>
+    <input type="number" min="1" max="5" />
+    <span class="error"></span>
+    </div>
+    <button onclick="calculateCompatibility()">Submit</button>
+    </div>
 
-<div id="result">
-<h2>Your Compatibility Score: <span id="score"></span>%</h2>
-<p id="remark"></p>
-<span class="heart">❤️</span>
-</div>
+    <div id="result">
+    <h2>Your Compatibility Score: <span id="score"></span>%</h2>
+    <p id="remark"></p>
+    <span class="heart">❤️</span>
+    </div>
 </body>
 </html>
